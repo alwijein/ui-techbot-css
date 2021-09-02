@@ -31,7 +31,11 @@ a {
 }
 
 
-
+.btn-primary {
+    background-color: var(--primaryColor) !important;
+    border: none !important;
+    width: 200px;
+}
 
 
 .btnCustomPrimary a {
@@ -159,6 +163,23 @@ a {
     justify-items: center;
     justify-content: center;
     align-items: center;
+    
+}
+
+/* Social lite */
+.socialCard{
+    margin-top: 30px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(187, 169, 169); */
+    box-shadow: 0px 2px 4px 0px grey;
+    border-radius: 50%;
+}
+.socialCard img{
+    width: 30px;
 }
 
 /* Navbar */
